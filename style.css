@@ -1,0 +1,425 @@
+body{
+    /* height: 5000px; */
+	/* overflow-x: hidden; */
+	font-family: 'Montserrat', sans-serif;
+	/* font-family: "metropolis-regular", sans-serif; */
+    
+}
+
+
+html{
+   font-size: 100%;
+}
+/* 
+*{
+	outline: #eb5844 dashed;
+	position: relative;
+} */
+
+.banner-section {
+	position: relative;
+  }
+
+  .s-content__header-title{
+	margin-bottom: 0px;
+	padding-top: 0px !important;
+
+  }
+  .news-dt{
+	font-size: small !important;
+	padding-top: 0px !important;
+	letter-spacing: 2px !important;
+  }
+  
+  .bg-img {
+	filter: brightness(0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+  }
+  
+	  
+
+.main-title > h1{
+
+	color: rgb(246, 250, 246); 
+	position: relative; text-align: center; 
+	font-size: 4em; 
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-bottom: 0em;
+    padding-bottom: 0em;
+	padding-top: 0px;
+}
+
+.header-details-page{
+	background-image: url(https://img.freepik.com/premium-photo/dark-blue-abstract-technology-background-futuristic-modern-tech-space-wallpaper-future-light-connection-network-banner-particle-element-cyber-wave-backdrop-innovation-neon-pattern-grid_79161-2211.jpg);
+	
+  
+}
+
+
+.logo-img{
+	width: 4em;
+	transform: skew(+5deg);
+	
+}
+
+.form-inline {
+	display: inline-block;
+}
+.navbar-header.col {
+	padding: 0 !important;
+}	
+.navbar {		
+	background:transparent ;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-top: 0px;
+	
+	/* box-shadow: 0 0 4px rgba(245, 241, 241, 0.1); */
+}
+.nav-link {
+	margin: 0 5px;
+}
+
+
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+}
+.navbar .navbar-brand {
+	color: #f7f7f6f9;
+	padding-left: 0;
+	padding-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	
+}
+
+
+
+
+.navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
+	color: white !important;
+}
+.navbar .navbar-nav a.active, .navbar .navbar-nav a.active:hover {
+	color:  rgba(255,255,255,.5);
+	background: transparent !important;
+}
+.search-box {
+	position: relative;
+}	
+.search-box input.form-control {		
+	padding-right: 35px;
+	border-radius: 0;
+	padding-left: 0;
+	border-width: 0 0 1px 0;
+	box-shadow: none;
+}
+.search-box input.form-control:focus {		
+	border-color: #f08373;		
+}
+
+.search-box .input-group-text {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 7px 0 7px 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #3d3d3d;
+	font-size: 19px;
+	
+}
+.navbar .nav-item i {
+	font-size: 18px;
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .nav-item.show > a {
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+	background-color: transparent;
+}
+.navbar .dropdown-menu a {
+	color: #777;
+	padding: 8px 20px;
+	line-height: normal;
+	font-size: 15px;
+	background-color: transparent;
+}
+.navbar .navbar-form {
+	margin-right: 0;
+	margin-left: 0;
+	border: 0;
+}
+
+
+  
+ 
+
+	
+
+@media (max-width: 991px){
+	
+/* html{
+	font-size: 90%;
+} */
+
+	.form-inline {
+		display: block;
+		margin-bottom: 10px;
+		margin-top: 0;
+	}
+	.logo-img{
+		display: none;
+	}
+	.input-group {
+		width: 100%;
+	}
+	
+	
+}
+
+@media (max-width: 768px) {
+	.bg-img {
+	  background-size: cover;
+	  background-position: center center;
+	}
+  }
+
+/* 
+@media (max-width: 500px){
+	html{
+		font-size: 80%;
+	}
+	
+} */
+
+
+
+
+
+.img-fluid {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+			
+}
+.fa {  
+    padding: 0px;  
+    text-align: center;  
+    margin: auto;  
+    font-size: 20px;  
+    width: 25px;  
+
+  }  
+  .fa-facebook {  
+    background:black;  
+    color: white;
+	margin-left: 32px; 
+  }  
+  .fa-twitter {  
+    background: black;  
+    color: white;  
+  }  
+ 
+  .fa-instagram {  
+    background: black;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background:black;  
+    color: white;  
+  }  
+  
+  
+  
+  .fa:hover {  
+      opacity: 0.9;
+	  color: #eb5844; 
+  }  
+
+
+
+.main-content{
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 5%;
+	/* background-color: #5e5252; */
+	
+}
+
+
+  .detailed-header{
+	color: black;
+	text-decoration: underline;
+	font-size: 30px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	max-width: 70%;
+	margin: 40px ;
+
+  }
+
+
+  
+
+
+
+.quote {
+	text-align: left;
+	
+	font-style: italic;
+	color: #333;
+	background-color: #fbfafa;
+	border-left: #c0d5f8 solid;
+	padding-left: 40px;
+	
+	margin: 30px 20px 50px 40px;
+  }
+
+
+  .margin{
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+.o-list  {
+	border-top: 2px solid #7c7b7b; 
+	padding: 40px;
+	background-color: #f2f2f2;
+	padding-left: 50px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+
+
+  }
+
+.o-list > h5{
+	color: #eb5844;
+    
+}
+
+
+  li {
+	margin-bottom: 10px;
+	font-size: 16px;
+	padding-left: 15px;
+
+  }
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.s-content__header h1 {
+  
+  border-bottom: 1px solid rgb(240, 245, 246);
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.news-dt {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+ 
+}
+
+.margin {
+  margin: 20px 0;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 1200px) {
+  .main-content {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-content {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 60px;
+  }
+
+  .img-fluid {
+    margin-top: 10px;
+  }
+
+  .quote {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .s-content__header h1 {
+    font-size: 22px;
+  }
+
+  .main-content{
+	padding: 40px;
+  }
+
+  .news-dt {
+    font-size: 12px;
+  }
+
+  .img-fluid {
+    margin-top: 5px;
+  }
+
+  .margin {
+    margin: 10px 0;
+  }
+
+  .quote {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+ 

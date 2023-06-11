@@ -1,0 +1,173 @@
+.content-header {
+	font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    color: rgb(20, 20, 20);
+    height: 200px; 
+    padding-top: 50px;
+    margin-right: 0px;
+    /* background-color: black; */
+    width: 100%;
+    
+}
+.container{
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+
+.col-sm-4{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+
+.mapouter{
+    position:center;
+    text-align:right;
+    width:95%;
+    height:400px;
+    padding-left:120px;
+    padding-top: 70px;
+    display: flex;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:95%;
+    height:400px;
+    position: center;
+}
+    
+.gmap_iframe {
+    width:100%!important;
+    height:400px!important;
+    position: center;
+}
+
+#map{
+
+    height:650px;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+  
+
+
+* {
+    box-sizing: border-box;
+}
+  
+.left {
+    background-color:white;
+    padding: 20px;
+    float: left;
+    width: 20%; 
+}
+  
+.main {
+    background-color: white;
+    padding: 20px;
+    float: left;
+    width: 60%; 
+}
+  
+.right {
+    background-color: white;
+    padding: 20px;
+    float: left;
+    width: 20%; 
+}
+  
+.container-input{
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 40px 40px 60px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.747);
+    justify-content: center;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    padding-left: 40px;
+      
+}
+.container-input .input{
+     
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.container-header{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    }
+  
+input{
+    width: 80%;
+    border-radius: 7px;
+    height: 40px;
+    border-color:rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0); 
+}
+.input{
+    text-align: center;
+    font-size: larger;
+    display: block;
+    
+}
+textarea{
+    height: 100%;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: white;
+    border-radius: 7px;
+    padding: 0 15px;
+    resize: none;
+}
+.textarea {
+    text-align: center;
+    border-radius: 6px;
+}
+#submit{
+      width: 80%;
+    height: 50px;
+    text-align: center;
+    background-color:rgb(17, 80, 164);
+    color: white;
+    border-color: black;
+    font-size: larger;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+#submit:hover{
+    background-color:rgb(17, 80, 164);
+    border-color: rgb(17, 80, 164);
+}
+  
+ 
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+    width: 100%; 
+    }
+}
